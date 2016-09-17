@@ -4,9 +4,9 @@ This Codebook will describe the steps taken in the run_analysis.R script.
 
 ### STEPS
 - The data sets were downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into a folder on my c drive.
-Once the data sets were downloaded, the data sets needed to be unzipped.  Once that was complete several tables were read into R: features.txt, activity_labels.txt, X_train.txt, y_train.txt, subject_train.txt, X_test.txt, y_test.txt, and subject_test.txt 
+Once the data sets were downloaded, the data sets needed to be unzipped.  Once that was complete several tables were read into R: features.txt, activity_labels.txt, X_train.txt, y_train.txt, subject_train.txt, X_test.txt, y_test.txt, and subject_test.txt. 
 - The data columns are then given names based on the features.txt file.
-- The three test train files were combined, the three test files were combined, then the train and test filed were combined to make one data set. 
+- The three train files were combined, the three test files were combined, then the train and test filed were combined to make one data set. 
 - The descriptive name of the activity was brought into the main data set.
 - Columns that hold mean or standard deviation measurements are selected from the dataset, while the other measurement columns are excluded from the rest of the analysis. I excluded columns that contained "freq" or "angle". Before it was possible to select the appropriate columns, code was ran to make all column names valid since some of the characters in the column names were giving me an error.
 - Column names were then cleaned up, duplicate phrase BodyBody was replaced with Body, t was replaced with time, f was replaced with frequency, Acc was replaced with Accelerometer, Gyro was replaced with Gyroscope, and Mag was replaced with Magnitude.
