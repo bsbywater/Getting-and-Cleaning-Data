@@ -1,7 +1,8 @@
-#Analysis Steps
+# Analysis Steps
 
 This Codebook will describe the steps taken in the run_analysis.R script.  
 
+### STEPS
 - The data sets were downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip into a folder on my c drive.
 Once the data sets were downloaded, the data sets needed to be unzipped.  Once that was complete several tables were read into R: features.txt, activity_labels.txt, X_train.txt, y_train.txt, subject_train.txt, X_test.txt, y_test.txt, and subject_test.txt 
 - The data columns are then given names based on the features.txt file.
@@ -14,7 +15,7 @@ Once the data sets were downloaded, the data sets needed to be unzipped.  Once t
 
 Comments can also be found in the run_analysis.R with the purpose of the code.
 
-Columns in output file
+### Columns in output file
 
 The columns included in the output file are listed below:
 - SubjectID: The id of the experiment participant.
