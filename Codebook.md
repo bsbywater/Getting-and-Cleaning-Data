@@ -15,7 +15,7 @@ Once the data sets were downloaded, the data sets needed to be unzipped.  Once t
 
 Comments can also be found in the run_analysis.R with the purpose of the code.
 
-### Columns in output file
+### Output File Columns
 
 The columns included in the output file are listed below:
 - SubjectID: The id of the experiment participant.
